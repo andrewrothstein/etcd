@@ -2,7 +2,6 @@
 PUBLIC_IP=10.254.254.254
 
 docker run -d \
-    -p 4001:4001 \
     -p 8001:8001 \
     -p 5001:5001 \
     --name=etcd-node1 \
